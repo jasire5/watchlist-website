@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>playlist</title>
+    <body>
+        
+    <style>
+        body{
+            margin:0;
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background:linear-gradient(180deg,#071124,#0b1220);
+            font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        .glow-box{
+            width:320px;
+            height:180px;
+            border-radius:12px;
+            background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+            color:#fff;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            box-shadow: 0 6px 20px rgba(2,6,23,0.6);
+            transition: transform 220ms ease, box-shadow 220ms ease;
+            cursor:default;
+        }
+
+        .glow-box:hover{
+            transform: translateY(-8px);
+            /* outer glow + colored ambient glow */
+            box-shadow:
+                0 18px 40px rgba(2,6,23,0.6),
+                0 0 28px rgba(99,102,241,0.18),
+                0 0 56px rgba(99,102,241,0.28);
+        }
+
+        /* optional: subtle inner sheen on hover */
+        .glow-box::after{
+            content:"";
+            position:absolute;
+            pointer-events:none;
+            width:120%;
+            height:120%;
+            left:-10%;
+            top:-10%;
+            border-radius:14px;
+            mix-blend-mode:screen;
+            opacity:0;
+            transition:opacity 220ms ease;
+        }
+        .glow-box:hover::after{
+            opacity:1;
+            background: radial-gradient(60% 40% at 10% 10%, rgba(255,255,255,0.06), transparent 20%),
+                                    radial-gradient(40% 30% at 90% 80%, rgba(99,102,241,0.08), transparent 25%);
+        }
+    </style>
+
+    <div class="glow-box">Hover me</div>
+    </body>
+</html>
