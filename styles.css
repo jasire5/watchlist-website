@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: navy;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: #5f9ea0;
+    border-radius: 8px;
+}
+.container:hover{
+    background-color: #63b2b5;
+}
