@@ -8,9 +8,10 @@ h1{
     width: 80%;
     margin: auto;
     padding: 10px;
-    background-color: #5f9ea0;
     border-radius: 8px;
+    background-color: #f0f8ff;
+    text-align: left;
 }
-.container:hover{
-    background-color: #63b2b5;
+body{
+    background: linear-gradient( to right, #5e8c8d, #3bb0b4) repeat;
 }
