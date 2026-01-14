@@ -4,14 +4,39 @@ h1{
     font-family: Arial, sans-serif;
     margin-top: 20px;
 }
-.container{
+.grid-container{
     width: 80%;
     margin: auto;
     padding: 10px;
     border-radius: 8px;
-    background-color: #f0f8ff;
+    background-color: #c4cad0;
     text-align: left;
 }
 body{
-    background: linear-gradient( to right, #5e8c8d, #3bb0b4) repeat;
+    background: linear-gradient( to top, #256ecc, #077074) repeat;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(67, 41, 132, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+    background-size: 25%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.card:hover{
+    box-shadow: 0 0 10px #1594d8, /* Inner glow */
+              0 0 20px #48abe0, /* Outer glow */
+              0 0 40px #416e85;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+ .Images{
+    border-radius: 5px;
+    float: right;
+    width:150px;
+    height:150px;
+    background-position: right;
+    margin-left: 15px;
 }
