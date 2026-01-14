@@ -25,6 +25,7 @@ xhttp.onreadystatechange = function() {
         if (film.Images && film.Images.length > 0) {
             card.style.backgroundImage = "url('" + film.Images[0] + "')";
         }
+        if (film.imdbRating)
         grid.appendChild(card); 
     }); 
 }
