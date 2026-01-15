@@ -5,7 +5,8 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        data = JSON.parse(this.responseText);
-       console.log(data);  
+       console.log(data);
+       localStorage.setItem("filmData", JSON.stringify(data));
     
     data.forEach(function(film) {
         let card = document.createElement('div');
@@ -30,5 +31,21 @@ xhttp.onreadystatechange = function() {
     }); 
 }
 };
+var topButton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    topButton.style.display = "block";
+  } else {
+    topButton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 xhttp.open("GET", "Film.JSON", true);
 xhttp.send();

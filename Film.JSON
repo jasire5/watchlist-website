@@ -90,73 +90,182 @@
     ]
   },
   {
-    "title": "Scott Pilgrim vs. the World",
-    "year": "2010",
-    "genre": "Action, Adventure, romance",
-    "publisher": "Shueisha",
-    "imdbRating": "7.5",
+    "title": "Beyblade Metal Fusion",
+    "year": "2009-2013",
+    "genre": "Action, Animation, fantasy",
+    "publisher": "Katsumi Hasegawa",
+    "imdbRating": "6.9",
     "Images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmVkRe09S0EdZ0u6rhoDJ9OYdKG50pQMVQ&s"
+      "https://m.media-amazon.com/images/M/MV5BNzE3OTE2ZTQtYzVmYi00MWIzLTg2NDUtNDk3MGRlYjEwNDg3XkEyXkFqcGc@._V1_.jpg"
     ]
   },
   {
-  "title": "Scott Pilgrim vs. the World",
-    "year": "2010",
-    "genre": "Action, Adventure, romance",
-    "publisher": "Shueisha",
-    "imdbRating": "7.5",
+  "title": "The owl house",
+    "year": "2020-2023",
+    "genre": "Action, folk horror, teen comedy",
+    "publisher": "Dana Terrace",
+    "imdbRating": "8.6",
     "Images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmVkRe09S0EdZ0u6rhoDJ9OYdKG50pQMVQ&s"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6l-mwBeS0x5aaY5DrxyI_kHNI9Y_v3E6VNQ&s"
     ]
   },
   {
-   "title": "Scott Pilgrim vs. the World",
-    "year": "2010",
+   "title": "Gravity falls",
+    "year": "2010-2016",
     "genre": "Action, Adventure, romance",
     "publisher": "Shueisha",
     "imdbRating": "7.5",
     "Images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmVkRe09S0EdZ0u6rhoDJ9OYdKG50pQMVQ&s"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTENpc-vBfEgwe_AxfPKOXybaG_JTtu9UMemg&s"
     ]
   },
   {
-   "title": "Scott Pilgrim vs. the World",
-    "year": "2010",
-    "genre": "Action, Adventure, romance",
-    "publisher": "Shueisha",
-    "imdbRating": "7.5",
+   "title": "Adventure time",
+    "year": "2010-2018",
+    "genre": "Action, Animation, comedy",
+    "publisher": "Pendleton Ward",
+    "imdbRating": "8.6",
     "Images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmVkRe09S0EdZ0u6rhoDJ9OYdKG50pQMVQ&s"
+      "https://m.media-amazon.com/images/M/MV5BMjkxMzIwNmQtMzM5Ni00YWJiLTg4YjQtNjBiN2IxMjZhMGQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     ]
   },
   {
-    "title": "Scott Pilgrim vs. the World",
-    "year": "2010",
-    "genre": "Action, Adventure, romance",
+    "title": "The amazing world of gumball",
+    "year": "2011-2019",
+    "genre": "dark comedy, satire, sitcom",
     "publisher": "Shueisha",
-    "imdbRating": "7.5",
+    "imdbRating": "8.4",
     "Images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmVkRe09S0EdZ0u6rhoDJ9OYdKG50pQMVQ&s"
+      "https://m.media-amazon.com/images/M/MV5BNmEwYzNhODgtZDc2Yi00MDAyLTliNWYtMDRkMThmMWE0NGNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     ]
   },
   {
-   "title": "Scott Pilgrim vs. the World",
-    "year": "2010",
-    "genre": "Action, Adventure, romance",
-    "publisher": "Shueisha",
-    "imdbRating": "7.5",
+   "title": "RWBY",
+    "year": "2012-present",
+    "genre": "Anime, teen drama, action",
+    "publisher": "Mounty Oum",
+    "imdbRating": "7.6",
     "Images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmVkRe09S0EdZ0u6rhoDJ9OYdKG50pQMVQ&s"
+      "https://m.media-amazon.com/images/M/MV5BMzU2ZTAwOGItMDMwYS00NmM0LTg1NGEtMmU1NTM3NWNlZjVlXkEyXkFqcGc@._V1_.jpg"
     ]
   },
   {
-   "title": "Scott Pilgrim vs. the World",
-    "year": "2010",
+   "title": "Eddsworld",
+    "year": "2003-present",
     "genre": "Action, Adventure, romance",
-    "publisher": "Shueisha",
+    "publisher": "Edd gould",
     "imdbRating": "7.5",
     "Images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZrmVkRe09S0EdZ0u6rhoDJ9OYdKG50pQMVQ&s"
+      "https://m.media-amazon.com/images/M/MV5BMGZkMmI3MmItMjI4MS00ZTk4LWIyZmQtMjQwNzcwYmY0NGE2XkEyXkFqcGc@._V1_.jpg"
     ]
+  },
+  {
+   "title": "Jojos bizarre adventure",
+    "year": "2012-present",
+    "genre": "Dark fantasy, globetrotting Adventure, quest",
+    "publisher": "Edd gould",
+    "imdbRating": "7.5",
+    "Images": [
+      "https://m.media-amazon.com/images/M/MV5BMjAzMjUyNDQ1NF5BMl5BanBnXkFtZTgwMjAwMTQ0NjE@._V1_.jpg"
+    ]
+  },
+  {
+   "title": "One piece",
+    "year": "1999-present",
+    "genre": "Action, Adventure, comedy",
+    "publisher": "Eiichiro Oda",
+    "imdbRating": "8.8",
+    "Images": [
+      "https://m.media-amazon.com/images/M/MV5BMTNjNGU4NTUtYmVjMy00YjRiLTkxMWUtNzZkMDNiYjZhNmViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    ]
+  },
+  {
+   "title": "My Hero Academia",
+    "year": "2016-present",
+    "genre": "Action, Adventure, comedy",
+    "publisher": "Kohei Horikoshi",
+    "imdbRating": "8.0",
+    "Images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTro8eluwxHiX2UJOZlUcodWbnK16Vi3DAFFA&s"
+    ]
+  },
+  {
+   "title": "Blue Box",
+    "year": "2024-present",
+    "genre": "comedy, romance, drama",
+    "publisher": "Kôji Miura",
+    "imdbRating": "8.0",
+    "Images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqufnQHQY_xyvBDg-VpK9rjjAYi3wpeXOv_w&s"
+    ]
+  },
+  {
+   "title": "Hunter x Hunter",
+    "year": "2011-2014",
+    "genre": "Action, Adventure, drama",
+    "publisher": "Yoshihiro Togashi",
+    "imdbRating": "9.0",
+    "Images": [
+      "https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    ]
+  },
+  {
+   "title": "Death Note",
+    "year": "2006-2007",
+    "genre": "Action, Adventure, drama",
+    "publisher": "Tsugumi Ohba",
+    "imdbRating": "9.0",
+    "Images": [
+      "https://m.media-amazon.com/images/M/MV5BYTgyZDhmMTEtZDFhNi00MTc4LTg3NjUtYWJlNGE5Mzk2NzMxXkEyXkFqcGc@._V1_.jpg"
+    ]
+  },
+  {
+    "title": "Teen titans",
+    "year": "2003-2006",
+    "genre": "Action, Adventure, comedy",
+    "publisher": "DC Comics",
+    "imdbRating": "8.0",
+    "Images": [
+      "https://m.media-amazon.com/images/M/MV5BOTg3NzY2MDQtMjUxNS00N2Q3LTkxODktMmU1NzdjZTNkMzQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    ]
+  },
+  {
+   "title": "The boondocks",
+    "year": "2005-2014",
+    "genre": "Action, Adventure, comedy",
+    "publisher": "Aaron McGruder",
+    "imdbRating": "8.0",
+    "Images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ4LpTTY1DoGdhZ0uxQVSHyPpfkQDtDHAiQA&s"
+    ]
+  },
+  {   "title": "Invincible",
+    "year": "2021-present",
+    "genre": "Action, Adventure, comedy",
+    "publisher": "Robert Kirkman",
+    "imdbRating": "8.7",
+    "Images": [
+      "https://m.media-amazon.com/images/M/MV5BZjE4ZDU4ZjMtZjliYS00M2ZmLThkNTItN2U3MmJjOGU0NmIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    ]
+  },
+  {
+    "title": "The legend of korra",
+      "year": "2012-2014",
+      "genre": "Action, Adventure, comedy",
+      "publisher": "Michael Dante DiMartino",
+      "imdbRating": "8.4",
+      "Images": [
+        "https://images.penguinrandomhouse.com/cover/9781506733876"
+      ]
+  },
+  {
+    "title": "Ben 10",
+      "year": "2005-2008",
+      "genre": "Action, Adventure, comedy",
+      "publisher": "Michael Dante DiMartino",
+      "imdbRating": "8.4",
+      "Images": [
+        "https://m.media-amazon.com/images/M/MV5BYWVjODZjNDgtYjk4ZS00OTg5LTg5NDQtZDMxZDQ4ZmM5MGJmXkEyXkFqcGc@._V1_.jpg"
+      ]
   }
 ]

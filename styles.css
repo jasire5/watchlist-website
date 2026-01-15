@@ -1,6 +1,9 @@
 h1{
     text-align: center;
-    color: navy;
+    background: linear-gradient(to top, #4cf100, rgb(49, 222, 228));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: Arial, sans-serif;
     margin-top: 20px;
 }
@@ -13,7 +16,7 @@ h1{
     text-align: left;
 }
 body{
-    background: linear-gradient( to top, #256ecc, #077074) repeat;
+    background: linear-gradient( to top, #0ac33e, #078399) repeat;
 }
 .card{
     background-color: rgb(255, 255, 255);
@@ -28,7 +31,7 @@ body{
 .card:hover{
     box-shadow: 0 0 10px #1594d8, /* Inner glow */
               0 0 20px #48abe0, /* Outer glow */
-              0 0 40px #416e85;
+              0 0 40px #609cb9;
     transform: translateY(-5px);
     transition: all 0.3s ease;
 }
@@ -39,4 +42,30 @@ body{
     height:150px;
     background-position: right;
     margin-left: 15px;
+}
+ul {
+    position: sticky;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2a6c6f;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #275a6b;
 }
