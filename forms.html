@@ -10,15 +10,21 @@
           <ul>
   <li><a href="watchlist.html">All we have</a></li>
   <li><a href="forms.html">Add your own</a></li>
+  <li><a href="https://github.com/p1n2o">GitHub for the background</a></li>
+  <li><a href="https://github.com/jasire5">GitHub</a></li>
 </ul>
     <h1>Add your own films!</h1>
 
         <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="fname">Show/Film name: </label><br>
+  <input type="text" id="fname" name="fname" placeholder="?"><br>
+  <label for="creator">creator: </label><br>
+  <input type="text" id="creator" name="creator" placeholder="Jasir Eilam"><br>
+  <label for="year">Year it ran or released:</label><br>
+  <input type="number" id="year" name="year" placeholder="2009"><br><br>
   <input type="submit" value="Submit">
+
+  <div> <input type="reset" value="Reset"></div>
 </form> 
 <script src="./script.js"></script>
     </body>

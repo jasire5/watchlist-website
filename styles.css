@@ -1,12 +1,4 @@
-h1{
-    text-align: center;
-    background: linear-gradient(to top, #4cf100, rgb(49, 222, 228));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Arial, sans-serif;
-    margin-top: 20px;
-}
+
 .grid-container{
     width: 80%;
     margin: auto;
@@ -15,8 +7,37 @@ h1{
     background-color: #c4cad0;
     text-align: left;
 }
-body{
-    background: linear-gradient( to top, #0ac33e, #078399) repeat;
+ body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #52ee9b, #47e73c, #23a6d5, #5523d5);
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+h1{
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    background: linear-gradient(to top, #02cb2e, rgba(42, 216, 255, 0.736));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .card{
     background-color: rgb(255, 255, 255);
@@ -29,9 +50,9 @@ body{
     background-repeat: no-repeat;
 }
 .card:hover{
-    box-shadow: 0 0 10px #1594d8, /* Inner glow */
-              0 0 20px #48abe0, /* Outer glow */
-              0 0 40px #609cb9;
+    box-shadow: 0 0 10px #02cb0c, /* Inner glow */
+              0 0 20px rgba(42, 216, 255, 0.736), /* Outer glow */
+              0 0 40px #02cb71;
     transform: translateY(-5px);
     transition: all 0.3s ease;
 }
@@ -68,4 +89,20 @@ ul li a {
 
 ul li a:hover {
   background-color: #275a6b;
+}
+button{
+    background-color: #15d3a1; /* Green */
+    border: none;
+    color: rgb(95, 10, 231);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: #1d89b8;
 }
