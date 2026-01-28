@@ -33,19 +33,15 @@ xhttp.onreadystatechange = function() {
 };
 var topButton = document.getElementById("myBtn");
 
-window.onscroll = function() {scrollFunction()};
+window.addEventListener('scroll', scrollFunction, { passive: true });
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    topButton.style.display = "block";
-  } else {
-    topButton.style.display = "none";
-  }
+  const scrolled = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  topButton.classList.toggle('visible', scrolled > 20);
 }
 
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 xhttp.open("GET", "Film.JSON", true);
 xhttp.send();
