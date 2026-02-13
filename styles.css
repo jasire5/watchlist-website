@@ -16,7 +16,22 @@
   background-attachment: fixed;
   animation: gradient 15s ease infinite;
 }
-
+img{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    background-position: right;
+    margin-left: 500px;
+}
+.card-img{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    background-position: right;
+    margin-left: 500px;
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -48,6 +63,7 @@ h1{
     background-size: 25%;
     background-position: right;
     background-repeat: no-repeat;
+    transition: all 0.3s ease;
 }
 .card:hover{
     box-shadow: 0 0 10px #02cb0c, /* Inner glow */
@@ -62,7 +78,7 @@ h1{
     width:150px;
     height:150px;
     background-position: right;
-    margin-left: 15px;
+    margin-left: 150px;
 }
 ul {
     position: sticky;
