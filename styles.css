@@ -107,9 +107,8 @@ ul li a:hover {
   background-color: #275a6b;
 }
 button{
-    background-color: #15d3a1; /* Green */
+    background: linear-gradient(180deg, #52ee9b, #47e73c, #23d579, #23d5d2);
     border: none;
-    color: rgb(95, 10, 231);
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
@@ -120,5 +119,5 @@ button{
     border-radius: 12px;
 }
 button:hover{
-    background-color: #1d89b8;
+    background: linear-gradient(to top, #02cb2e, rgba(42, 216, 255, 0.736));
 }
